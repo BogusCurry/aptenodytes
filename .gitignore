@@ -13,3 +13,7 @@ Thumbs.db
 /config/db.php
 /config/params.php
 /config/web.php
+
+# ignore uploads and legacy folders
+/web/uploads
+/web/wp-content
