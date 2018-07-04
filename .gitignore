@@ -13,6 +13,7 @@ Thumbs.db
 /config/db.php
 /config/params.php
 /config/web.php
+/rbac/assignments.php
 
 # ignore uploads and legacy folders
 /web/uploads
