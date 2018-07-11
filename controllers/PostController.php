@@ -333,7 +333,7 @@ class PostController extends Controller
      */
     public function actionCategory($categoryName) {
 
-        $category = Category::findOne(['name' => $categoryName]);
+        $category = Category::findOne(['slug' => $categoryName]);
 
         if (!$category) {
             throw new NotFoundHttpException("Категория не найдена.");
