@@ -2,10 +2,8 @@
 
 namespace app\models;
 
-use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Category;
 
 /**
  * CategorySearch represents the model behind the search form of `app\models\Category`.
@@ -43,6 +41,7 @@ class CategorySearch extends Category
      */
     public function search($params)
     {
+
         $query = Category::find();
 
         // add conditions that should always apply here
@@ -69,5 +68,7 @@ class CategorySearch extends Category
             ->andFilterWhere(['like', 'slug', $this->slug]);
 
         return $dataProvider;
+
     }
+
 }
