@@ -390,3 +390,27 @@ h3.comment-box__title {
     font-style: italic;
     text-align: center;
 }
+
+.post-filter {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.post-filter li {
+    padding: 12px 16px 8px 16px;
+    color: #2a6194;
+}
+
+.post-filter a {
+    text-decoration: underline;
+}
+
+.post-filter a:hover {
+    text-decoration: none;
+}
+
+.post-filter li .fa {
+    margin-right: 10px;
+}
