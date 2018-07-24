@@ -35,10 +35,11 @@
             </div>
             <div class="widget">
                 <div class="widget-title">
-                    Поддержите проект
+                    Donate
                 </div>
                 <div class="widget-content">
-                    <p>Яндекс-Деньги: <a href="https://money.yandex.ru/to/41001609245268" rel="nofollow" target="_blank">41001609245268</a></p>
+                    <p>Я с удовольствием и благодарностью приму маленькие пожертвования.</p>
+                    <p><?= \yii\helpers\Html::a('Подробнее »', '/donate')?></p>
                 </div>
             </div>
             <div class="widget">
