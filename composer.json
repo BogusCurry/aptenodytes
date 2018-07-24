@@ -1,16 +1,16 @@
 {
-    "name": "dignityinside/phpland",
+    "name": "phpland/phpland",
     "description": "Source code of phpland community.",
     "keywords": ["yii2"],
     "homepage": "https://phpland.org/",
     "type": "project",
     "license": "MIT",
     "support": {
-        "source": "https://github.com/dignityinside/phpland"
+        "source": "https://github.com/phpland/phpland"
     },
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=7.2.0",
         "yiisoft/yii2": "~2.0.5",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",

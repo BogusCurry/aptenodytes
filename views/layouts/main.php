@@ -72,6 +72,7 @@ $yandexVerification = \Yii::$app->params['yandexVerification'];
     ]];
     $menuItems[] = ['label' => 'macOS', 'url' => ['/tag/macos']];
     $menuItems[] = ['label' => 'О проекте', 'url' => ['/site/about']];
+    $menuItems[] = ['label' => 'Donate', 'url' => ['/site/donate']];
     $menuItems[] = ['label' => 'YouTube', 'url' => 'http://r.phpland.org/40/youtube', 'linkOptions' => ['target' => '_blank']];
     $menuItems[] = ['label' => 'Telegram', 'url' => 'http://r.phpland.org/42/telegram', 'linkOptions' => ['target' => '_blank']];
 

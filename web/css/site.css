@@ -414,3 +414,8 @@ h3.comment-box__title {
 .post-filter li .fa {
     margin-right: 10px;
 }
+
+.site-donate h2,
+.site-donate h3 {
+    color: #E13300;
+}
