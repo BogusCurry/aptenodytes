@@ -25,6 +25,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ['provider' => 'Byteball', 'account' => 'ZAL33AOP6JVIIXL5A75CDSBD64XOEI7X'],
             ['provider' => 'Golos', 'account' => 'phpland'],
             ['provider' => 'Steemit', 'account' => 'dignityinside'],
+            ['provider' => 'Bitshares', 'account' => 'alexander-schilling'],
         ];
 
     ?>
