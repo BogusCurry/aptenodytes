@@ -235,7 +235,7 @@ class SiteController extends Controller
      *
      * @return string|\yii\web\Response
      */
-    public function actionContact(): string
+    public function actionContact()
     {
 
         $model = new ContactForm();

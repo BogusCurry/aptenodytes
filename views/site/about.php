@@ -21,15 +21,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h3>Donate</h3>
     <p>Я с удовольствием и благодарностью приму маленькие пожертвования. <?= \yii\helpers\Html::a('Подробнее »', '/donate')?></p>
     <h3>Мы в социальных сетях:</h3>
-    <div id="vk_groups">
-        <iframe id="vkwidget1" src="https://vk.com/widget_community.php?app=0&amp;width=225px&amp;_ver=1&amp;gid=122662976&amp;mode=0&amp;color1=&amp;color2=&amp;color3=&amp;class_name=&amp;url=http%3A%2F%2Fas.phpland.org%2Fabout&amp;referrer=http%3A%2F%2Fas.phpland.org%2Fpost%2Findex%3Fpage%3D1%26per-page%3D10&amp;title=%D0%9E%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B5&amp;15fd62a8586" name="fXD4ceb7" width="225" height="290" frameborder="0" scrolling="no" data-mce-fragment="1"></iframe>
-    </div>
-
-    <p><i class="fa fa-vk"></i> <a href="http://r.phpland.org/41/vk" target="_blank" rel="nofollow noopener">https://vk.com/phpland</a></p>
-
-    <p><i class="fa fa-youtube"></i> <a href="http://r.phpland.org/40/youtube" target="_blank" rel="nofollow noopener">https://www.youtube.com/user/dignityinside</a></p>
-
-    <p><i class="fa fa-telegram"></i> <a href="http://r.phpland.org/42/telegram" target="_blank" rel="nofollow noopener">https://t.me/phpland</a></p>
-
-    <p><i class="fa fa-link"></i> <a href="http://r.phpland.org/49/golos" target="_blank" rel="nofollow noopener">https://golos.io/@phpland</a></p>
+    <p><i class="fa fa-youtube"></i> <a href="https://www.youtube.com/user/dignityinside" target="_blank" rel="nofollow">https://www.youtube.com/user/dignityinside</a></p>
+    <p><i class="fa fa-vk"></i> <a href="https://vk.com/phpland" target="_blank" rel="nofollow">https://vk.com/phpland</a></p>
+    <p><i class="fa fa-telegram"></i> <a href="https://t.me/phpland" target="_blank" rel="nofollow">https://t.me/phpland</a></p>
 </div>

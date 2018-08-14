@@ -17,19 +17,10 @@
                         <i class="fa fa-telegram"></i> <a href="https://t.me/phpland" target="_blank" rel="nofollow noopener">Канал в Telegram</a> | <a href="https://t.me/phpland_chat" target="_blank" rel="nofollow noopener">Чат</a>
                     </div>
                     <div class="widget-content-social">
-                        <i class="fa fa-users"></i> <a href="https://discord.gg/hJ86d94" target="_blank" rel="nofollow noopener">Чат в Discord</a>
-                    </div>
-                    <div class="widget-content-social">
                         <i class="fa fa-twitter"></i> <a href="https://twitter.com/phplandorg" target="_blank" rel="nofollow noopener">Микроблог в Twitter</a>
                     </div>
                     <div class="widget-content-social">
-                        <i class="fa fa-instagram"></i> <a href="https://instagram.com/phpland" target="_blank" rel="nofollow noopener">Истории в Instagram</a>
-                    </div>
-                    <div class="widget-content-social">
-                        <i class="fa fa-link"></i> <a href="https://golos.io/@phpland" target="_blank" rel="nofollow noopener">Блог на Golos</a> | <a href="https://steemit.com/@dignityinside" target="_blank" rel="nofollow noopener">Steemit</a>
-                    </div>
-                    <div class="widget-content-social">
-                        <i class="fa fa-github"></i> <a href="https://github.com/dignityinside" target="_blank" rel="nofollow noopener">Исходники на Github</a>
+                        <i class="fa fa-github"></i> <a href="https://github.com/phpland" target="_blank" rel="nofollow noopener">Исходники на Github</a>
                     </div>
                 </div>
             </div>
