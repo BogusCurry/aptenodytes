@@ -276,4 +276,14 @@ class SiteController extends Controller
         return $this->render('donate');
     }
 
+    /**
+     * Displays search page
+     *
+     * @return string
+     */
+    public function actionSearch(): string
+    {
+        return $this->render('search');
+    }
+
 }

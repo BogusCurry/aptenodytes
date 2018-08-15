@@ -419,3 +419,11 @@ h3.comment-box__title {
 .site-donate h3 {
     color: #E13300;
 }
+
+.site-search {
+    margin-top: 20px;
+    background: #FFF;
+    padding: 0 20px 10px 20px;
+    border-radius: 10px;
+    border: solid 1px #DCDCDC;
+}
