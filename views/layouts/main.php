@@ -107,7 +107,10 @@ $yandexVerification = \Yii::$app->params['yandexVerification'];
         ]
     );
 
+    echo $this->render('partials/search.php');
+
     NavBar::end();
+
     ?>
 
     <div class="container">
