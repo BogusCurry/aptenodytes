@@ -2,6 +2,8 @@ html,
 body {
     height: 100%;
     background: #EDEEF0;
+    font-family: Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
 }
 
 .wrap {
@@ -19,6 +21,10 @@ body {
     border-top: 1px solid #DDD;
     padding-top: 20px;
     text-align: center;
+}
+
+.footer a {
+    color: #1794D1;
 }
 
 .hljs {
@@ -68,43 +74,38 @@ pre {
     padding: 0 20px 10px 20px;
     border-radius: 10px;
     border: solid 1px #DCDCDC;
+    overflow-wrap: break-word;
 }
 
-.post-view h1,
-.post-view h1 a {
+.post-view h1 a,
+.post-view h2 a,
+.post-view h3 a,
+.post-view h4 a {
+    text-decoration: none;
+}
+
+.post-view h1 {
     color: #E13300;
     border-bottom: 1px solid #E13300;
-    text-decoration: none;
     padding-bottom: 3px;
 }
 
-.post-view h2,
-.post-view h2 a {
-    color: #4F5B93;
-    border-bottom: 1px solid #4F5B93;
+.post-view h2, .post-view h3, .post-view h4 {
+    color: #1794D1;
+    border-bottom: 1px dotted #1794D1;
     padding-bottom: 3px;
 }
 
-.post-view h3,
-.post-view h3 a {
-    color: #333;
-    border-bottom: 1px solid #a2a9b1;
-    padding-bottom: 3px;
-}
-
-.post-view h4,
-.post-view h4 a {
-    border-bottom: 1px solid #a2a9b1;
-    padding-bottom: 3px;
-}
-
-.post-view .index_title h3,
-.post-view .index_title h3 a{
+.post-view .index_title h3 {
     font-size: 24px;
     color: #E13300;
     border-bottom: 1px solid #E13300;
-    text-decoration: none;
     padding-bottom: 3px;
+}
+
+.post-view .index_title h3 a {
+    color: #E13300;
+    text-decoration: none;
 }
 
 .post-view img {
@@ -204,39 +205,6 @@ a.desc:after {
     background-color: #0088cc;
 }
 
-/* Links */
-
-a {
-    color: #4F5B93;
-}
-
-a:hover {
-    color: #8892BF;
-}
-
-/* Buttons */
-
-.btn-primary {
-    background: #4F5B93;
-    border-color: #8892BF;
-}
-
-.btn-primary:hover {
-    background: #8892BF;
-    border-color: #4F5B93;
-}
-
-/* Pagination */
-
-.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-    background: #4F5B93;
-    border-color: #8892BF;
-}
-
-.pagination > li > a, .pagination > li > span {
-    color: #8892BF;
-}
-
 .nav li > form > button.logout {
     padding: 15px;
     border: none;
@@ -285,6 +253,20 @@ ul.comments li {
 
     .post-view .index_title h3, .post-view .index_title h3 a {
         border: none;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .widget,
+    .breadcrumb {
+        display: none;
+    }
+
+    .post-filter {
+        padding-left: 0;
+        text-align: center;
     }
 
 }
@@ -355,19 +337,17 @@ h3.comment-box__title {
     font-size: 16px;
 }
 
-.widget-content-social {
+.widget-content__social-icons {
+    font-size: 30px;
+}
+
+.widget-content__social-icons a {
+    color: #1794D1;
+}
+
+.widget-content__social-icons a:hover {
     color: #2a6194;
-    border: solid 1px #bedaf4;
-    background-color: #eaf3fb;
-    padding: 15px 15px 10px 15px;
-    margin-bottom: 20px;
-    border-radius: 5px;
 }
-
-.widget-content-social .fa {
-    padding-right: 10px;
-}
-
 
 .widget-content .fa.green {
     color: #58c649;
@@ -400,7 +380,7 @@ h3.comment-box__title {
 
 .post-filter li {
     padding: 12px 16px 8px 16px;
-    color: #2a6194;
+    color: #1794D1;
 }
 
 .post-filter a {

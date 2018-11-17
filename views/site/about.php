@@ -22,6 +22,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <p>Я с удовольствием и благодарностью приму маленькие пожертвования. <?= \yii\helpers\Html::a('Подробнее »', '/donate')?></p>
     <h3>Мы в социальных сетях:</h3>
     <p><i class="fa fa-youtube"></i> <a href="https://www.youtube.com/user/dignityinside" target="_blank" rel="nofollow">https://www.youtube.com/user/dignityinside</a></p>
-    <p><i class="fa fa-vk"></i> <a href="https://vk.com/phpland" target="_blank" rel="nofollow">https://vk.com/phpland</a></p>
     <p><i class="fa fa-telegram"></i> <a href="https://t.me/phpland" target="_blank" rel="nofollow">https://t.me/phpland</a></p>
+    <p><i class="fa fa-vk"></i> <a href="https://vk.com/phpland" target="_blank" rel="nofollow">https://vk.com/phpland</a></p>
 </div>

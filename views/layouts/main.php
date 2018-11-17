@@ -51,32 +51,18 @@ $yandexVerification = \Yii::$app->params['yandexVerification'];
         ]
     );
 
-    $menuItems[] = ['label' => 'Главная', 'url' => ['/post/index']];
-    $menuItems[] = ['label' => 'PHP', 'items' => [
-        ['label' => 'PHP', 'url' => ['/tag/php']],
-        ['label' => 'Composer', 'url' => ['/tag/composer']],
-        ['label' => 'Git', 'url' => ['/tag/git']],
-        ['label' => 'CMS', 'url' => ['/tag/cms']],
-        ['label' => 'Yii Framework', 'url' => ['/tag/yii']],
-        ['label' => 'Zend Framework', 'url' => ['/tag/zf']],
-        ['label' => 'IDE', 'url' => ['/tag/ide']],
-    ]];
-    $menuItems[] = ['label' => 'Linux', 'items' => [
-        ['label' => 'Linux', 'url' => ['/tag/linux']],
-        ['label' => 'Linux Mint', 'url' => ['/tag/linux-mint']],
-        ['label' => 'Manjaro Linux', 'url' => ['/tag/manjaro-linux']],
-        ['label' => 'Bash', 'url' => ['/tag/bash']],
-        ['label' => 'Сервер', 'url' => ['/tag/server']],
-        ['label' => 'Софт', 'url' => ['/tag/soft']],
-        ['label' => 'Игры', 'url' => ['/tag/games']],
-    ]];
-    $menuItems[] = ['label' => 'macOS', 'url' => ['/tag/macos']];
+    $menuItems[] = ['label' => 'Веб', 'url' => ['/category/web-programmirovanie']];
+    $menuItems[] = ['label' => 'Софт', 'url' => ['/category/soft']];
+    $menuItems[] = ['label' => 'SEO', 'url' => ['/category/seo']];
+    $menuItems[] = ['label' => 'Сервер', 'url' => ['/category/server']];
+    $menuItems[] = ['label' => 'Игры', 'url' => ['/category/igry']];
+    $menuItems[] = ['label' => 'Разное', 'url' => ['/category/raznoe']];
     $menuItems[] = ['label' => 'Планета', 'url' => ['/planet/index']];
-    $menuItems[] = ['label' => 'О проекте', 'url' => ['/site/about']];
+    $menuItems[] = ['label' => 'О проекте', 'url' => ['/about']];
 
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Регистрация', 'url' => ['/site/signup']];
-        $menuItems[] = ['label' => 'Войти', 'url' => ['/site/login']];
+        $menuItems[] = ['label' => 'Регистрация', 'url' => ['/signup']];
+        $menuItems[] = ['label' => 'Войти', 'url' => ['/login']];
     } else {
 
         $menuItems[] = [
@@ -89,10 +75,10 @@ $yandexVerification = \Yii::$app->params['yandexVerification'];
                 ['label' => 'Все пользователи', 'url' => ['/user/admin'], 'visible' => UserPermissions::canAdminUsers()],
                 ['label' => 'Все комментарии', 'url' => ['/comment-admin/manage/index'], 'visible' => UserPermissions::canAdminPost()],
                 ['label' => 'Планета', 'url' => ['/planet/admin'], 'visible' => UserPermissions::canAdminPlanet()],
+                '<li class="divider"></li>',
+                ['label' => 'Выйти (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']]
             ],
         ];
-
-        $menuItems[] = ['label' => 'Выйти (' . Yii::$app->user->identity->username . ')', 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']];
 
     }
 
