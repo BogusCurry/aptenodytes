@@ -58,7 +58,7 @@ $yandexVerification = \Yii::$app->params['yandexVerification'];
     $menuItems[] = ['label' => 'Игры', 'url' => ['/category/igry']];
     $menuItems[] = ['label' => 'Разное', 'url' => ['/category/raznoe']];
     $menuItems[] = ['label' => 'Планета', 'url' => ['/planet/index']];
-    $menuItems[] = ['label' => 'О проекте', 'url' => ['/about']];
+    $menuItems[] = ['label' => 'Сообщество', 'url' => ['/about']];
 
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Регистрация', 'url' => ['/signup']];

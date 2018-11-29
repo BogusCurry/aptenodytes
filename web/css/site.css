@@ -349,9 +349,9 @@ h3.comment-box__title {
     color: #2a6194;
 }
 
-.widget-content .fa.green {
-    color: #58c649;
-    padding-right: 8px;
+.widget-icon {
+    color: #E13300;
+    padding-right: 7px;
 }
 
 .author_support {
@@ -406,4 +406,33 @@ h3.comment-box__title {
     padding: 0 20px 10px 20px;
     border-radius: 10px;
     border: solid 1px #DCDCDC;
+}
+
+.widget-content .fa-youtube {
+    color: #FF0000;
+}
+
+.widget-content .fa-telegram {
+    color: #2FA6DD;
+}
+
+.widget-content .fa-vk {
+    color: #4A76A8;
+}
+
+.widget-content .fa-mastodon {
+    color: #3088D4;
+}
+
+.widget-content .fa-slack {
+    color: #433542;
+}
+
+.widget-content .fa-discord {
+    color: #6B86C9;
+}
+
+.site-about--icon {
+    color: #E13300;
+    padding-right: 7px;
 }
