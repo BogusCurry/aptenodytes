@@ -20,9 +20,8 @@ Thumbs.db
 # ignore generated sitemaps files
 /web/sitemap*.xml
 
-# ignore uploads and legacy folders
+# ignore uploads folder
 /web/uploads
-/web/wp-content
 
 # nginx production file
-server/nginx/conf.d/phpland.conf
+server/nginx/conf.d/aptenodytes.conf

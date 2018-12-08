@@ -1,6 +1,6 @@
-# phpland
+# aptenodytes
 
-Source code of the phpland community.
+Source code of the aptenodytes community.
 
 ## Technology
 
@@ -13,8 +13,8 @@ Source code of the phpland community.
 ## Clone project via GIT
 
 ```
-git clone https://github.com/dignityinside/phpland
-cd phpland
+git clone https://github.com/aptenodytesde/aptenodytes
+cd aptenodytes
 ```
 
 ## Install all dependencies via Composer
