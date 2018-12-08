@@ -8,4 +8,4 @@ Disallow: /contact
 Disallow: /signup
 Disallow: /planet/index
 
-Host: phpland.org
+Host: aptenodytes.de

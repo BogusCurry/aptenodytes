@@ -1,12 +1,12 @@
 {
-    "name": "phpland/phpland",
-    "description": "Source code of phpland community.",
+    "name": "aptenodytesde/aptenodytes",
+    "description": "Source code of aptenodytes community.",
     "keywords": ["yii2"],
-    "homepage": "https://phpland.org/",
+    "homepage": "https://aptenodytes.de/",
     "type": "project",
     "license": "MIT",
     "support": {
-        "source": "https://github.com/phpland/phpland"
+        "source": "https://github.com/aptenodytesde/aptenodytes"
     },
     "minimum-stability": "stable",
     "require": {
